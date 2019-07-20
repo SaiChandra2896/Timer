@@ -38,7 +38,6 @@ class Timer extends Component {
     list.push(this.state.time);
 
     this.setState({
-      Datenow: Date.now(),
       isOn: false
     });
   }
